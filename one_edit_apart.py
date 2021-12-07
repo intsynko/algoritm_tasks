@@ -31,6 +31,9 @@ def check_str(str_1, str_2):
             p1 += 1
             p2 += 1
         return True
+    
+    if abs(len(str_1)-len(str_2)) > 1:
+        return False
 
     for p in range(min(len(str_1), len(str_2))):
         if str_1[p] != str_2[p]:
@@ -43,6 +46,7 @@ def check_str(str_1, str_2):
 assert check_str("ab", "ac") == True
 assert check_str("abd", "act") == False
 assert check_str("abad", "acat") == False
+assert check_str("abad", "acad") == True
 assert check_str("ab", "с") == False
 assert check_str("ab", "b") == True
 assert check_str("abb", "a") == False
