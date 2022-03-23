@@ -1,3 +1,21 @@
+"""
+Задание: 
+Зная формулу расчтета индекса массы тела запросить и пользователя 
+из консоли массу тела и рост, рассчитать по формуле
+BMI = MASS / HEIGHT^2
+
+И дать совет исходя из таблицы:
+Underweight = <18.5
+Normal = 18.5<25
+Overweight = 25<30
+Obesity = 30<
+
+Например:
+mass = 84
+height = 180
+Overweight 3 kg
+"""
+
 def validator_factory(type_, type_err_msg, min=None, max=None):
     def validate(value):
         try:
