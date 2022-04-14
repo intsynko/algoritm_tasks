@@ -81,7 +81,7 @@ def free_walker(matrix: list, position: tuple, visited: set):
 
     def check_(next_pos):
         i_, j_ = next_pos
-        return i_ < len(matrix) and j_ < len(matrix[i]) and i_ >= 0 and j_ >= 0 \ 
+        return i_ < len(matrix) and j_ < len(matrix[i_]) and i_ >= 0 and j_ >= 0 \ 
             and matrix[i_][j_] != -1 and next_pos not in visited
 
     right = (i, j + 1)
