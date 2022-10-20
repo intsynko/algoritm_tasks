@@ -1,6 +1,8 @@
 # algoritm_tasks
 Алгоритмические задачи с собесов
 
+Мой профиль на leeldcode: https://leetcode.com/intsynko/
+
 Легкие
 1. [Задача](./fibonachi.py) на подсчет числа фибоначи
 2. [Задача](./dict_to_list.py) на преобразование словаря в лист
